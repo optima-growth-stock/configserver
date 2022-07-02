@@ -10,7 +10,9 @@ spring:
         git:
           uri: https://github.com/optima-growth-stock/config
           default-label: main
-          search-paths: licensingservice
+          search-paths:
+            - licensingservice
+            - organizationservice
 
 # This value should be passed as environment variable, but for ease of usage it's defined here.
 encrypt:
