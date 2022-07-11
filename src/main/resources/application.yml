@@ -15,9 +15,5 @@ spring:
             - organizationservice
             - eurekaserver
 
-# This value should be passed as environment variable, but for ease of usage it's defined here.
-encrypt:
-  key: INSYMETRIC
-
 server:
   port: 8071
