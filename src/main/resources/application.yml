@@ -14,6 +14,7 @@ spring:
             - licensingservice
             - organizationservice
             - eurekaserver
+            - gatewayserver
 
 server:
   port: 8071
